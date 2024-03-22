@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:grey;
+}
+
+.container {
+    margin: 100px auto;
+    border: 3px solid black;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+#password_gen {
+    font-size: 3rem;
+    line-height: 200px;
+}
