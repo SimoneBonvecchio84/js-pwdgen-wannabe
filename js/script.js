@@ -1,5 +1,5 @@
 // Il programma chiede:
-// Chiedi all l'utente tramite prompt il suo nome,
+// Chiedi all'utente tramite prompt il suo nome,
 // il cognome e il suo colore preferito
 // infine scrivi sulla pagina nome cognome e colore preferito21
 
