@@ -4,7 +4,7 @@
 // infine scrivi sulla pagina nome cognome e colore preferito21
 
 //RACCOLTA DATI
-// 1 Creare una variabile let per chidere all'utente come si chiame
+// 1 Creare una variabile let per chidere all'utente come si chiama
 
 let userName = prompt("Ciao Utente! Come ti chiami?");
 console.log(userName, typeof userName);  // stringa
