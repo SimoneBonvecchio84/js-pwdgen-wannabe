@@ -23,17 +23,21 @@ console.log(userAge, typeof userAge); // number
 let favoriteColor = prompt("Ciao Utente! Qual'è il tuo colore preferito?");
 console.log(favoriteColor, typeof favoriteColor); // string
 
+// Math.random
+// creo un generatore random di numeri e lo deposito in una variabile
+let numRandom = Math.round(Math.random() * 100);
+
 // PARTE LOGICA 
 // sommiamo i valori precedenti per creare una password contenete tutte le
 // info raccolte e inserite nei prompt
 
-let sommaInfo = userName + userAge + favoriteColor; // string
+let sommaInfo = userName + userAge + favoriteColor +numRandom; // string
 console.log(sommaInfo);
 
 // OUTPUT
 // Stampo il messaggio in pagina grazie a getElementById
 
-const raccoltaInfo = `password Utente è ${sommaInfo}`; // string
+const raccoltaInfo = `${sommaInfo}`; // string
 
 document.getElementById("password_gen").innerHTML =raccoltaInfo ;
 
