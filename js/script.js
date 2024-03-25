@@ -25,7 +25,7 @@ console.log(favoriteColor, typeof favoriteColor); // string
 
 // Math.random
 // creo un generatore random di numeri e lo deposito in una variabile
-let numRandom = Math.round(Math.random() * 100);
+let numRandom = Math.floor(Math.random() * 101);
 
 // PARTE LOGICA 
 // sommiamo i valori precedenti per creare una password contenete tutte le
